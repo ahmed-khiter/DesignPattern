@@ -1,0 +1,18 @@
+Step 1
+Create an interface. 
+Hint: (interface IShape)
+
+Step 2
+Create concrete classes implementing the same interface.
+Hint: (class RectangleShape - SquareShape - CircleShape)
+
+Step 4
+Use the Factory to get object of concrete class by passing an information such as type.
+Hint: (Class FactoryPatternProgram)
+
+Step 5
+Make FactoryPatternProgram as a main program then run project :)
+
+After seeing Result go to UML folder 
+
+Thanks in advance :) <3 

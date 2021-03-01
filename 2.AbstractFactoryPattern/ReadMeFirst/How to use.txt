@@ -1,0 +1,30 @@
+Step 1
+Create an interface for IShape
+Hint: (interface IShape)
+
+Step 2
+Create concrete classes implementing the same interface.
+Hint: (RoundedRectangle : IShape - RoundedSquare  : IShape - Rectangle  : IShape - Square : IShape)
+
+Step 3
+Create an Abstract class to get factories for Normal and Rounded Shape Objects.
+Hint: (interface IAbstractClass)
+
+Step 4
+Create Factory classes inherit IAbstractFactory to generate object of concrete class based on given information.
+Hint: (ShapeFactory : IAbstractFactory)
+
+Step 5
+Create a Factory generator/producer class to get factories by passing an information such as IShape
+Hint: (class FactoryProducer)
+
+Step 6
+Use the FactoryProducer to get IAbstractFactory in order to get factories of concrete classes by passing an information such as type.
+Hint: (class AbstractFactoryProgram)
+
+Step 7 
+Make AbstractFactoryProgram as a main program then run project :)
+
+After seeing Result go to UML folder 
+
+Thanks in advance :) <3 

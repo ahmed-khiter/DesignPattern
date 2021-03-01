@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>DesignPattern.FactoryPatternProgram</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1.FactoryPattern\1.FactoryPattern.csproj" />
+    <ProjectReference Include="..\2.AbstractFactoryPattern\2.AbstractFactoryPattern.csproj" />
+  </ItemGroup>
+
+</Project>
