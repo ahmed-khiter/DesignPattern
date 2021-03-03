@@ -3,12 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>DesignPattern.FactoryPatternProgram</StartupObject>
+    <StartupObject>DesignPattern.SingletonPatternProgram</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\1.FactoryPattern\1.FactoryPattern.csproj" />
     <ProjectReference Include="..\2.AbstractFactoryPattern\2.AbstractFactoryPattern.csproj" />
+    <ProjectReference Include="..\3.SingletonPattern\3.SingletonPattern.csproj" />
   </ItemGroup>
 
 </Project>
